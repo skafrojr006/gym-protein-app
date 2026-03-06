@@ -1,0 +1,4 @@
+const CONFIG = {
+    GOOGLE_API_KEY: "AIzaSyAbc123456XYZ",
+    SEARCH_ENGINE_ID: "7064093f929fe4ec0"
+};
