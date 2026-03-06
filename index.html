@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -67,4 +68,75 @@
     <script src="script.js"></script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gym Exercise & Protein Diet App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏋 Gym Exercise & Protein Diet App</h1>
+
+    <img src="gym.jpg" alt="Gym Image" width="350">
+
+    <br><br>
+
+    <!-- Budget Selection -->
+    <label>Select Budget:</label>
+    <select id="budget">
+        <option value="low">Low (Budget Friendly)</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+        <option value="unlimited">Unlimited (Rich)</option>
+    </select>
+
+    <br><br>
+
+    <!-- Exercise Type -->
+    <label>Exercise Type:</label>
+    <select id="exerciseType">
+        <option value="normal">Normal Exercise</option>
+        <option value="gym">Gym Exercise</option>
+        <option value="all">Unlimited Exercises</option>
+    </select>
+
+    <br><br>
+
+    <!-- Food Type -->
+    <label>Food Type:</label>
+    <select id="foodType">
+        <option value="veg">Vegetarian</option>
+        <option value="nonveg">Non-Vegetarian</option>
+        <option value="all">Unlimited Ingredients</option>
+    </select>
+
+    <br><br>
+
+    <!-- Calendar -->
+    <label>Select Date:</label>
+    <input type="date" id="date">
+
+    <br><br>
+
+    <button onclick="generatePlan()">Generate Plan</button>
+    <button onclick="handleSearch()">Search Protein Info</button>
+
+    <div id="output"></div>
+
+    <hr>
+
+    <h2>Search Protein Info</h2>
+    <input type="text" id="searchInput" placeholder="Search protein product...">
+    <div id="results"></div>
+
+    <!-- Scripts must be last -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+>>>>>>> 4054a8657d35f0e76c924d44112308c5639116cf
 </html>
